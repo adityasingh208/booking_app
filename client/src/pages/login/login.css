@@ -1,0 +1,52 @@
+.login {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+  }
+  .img-login{
+    width: 100%;
+  }
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .lInput{
+    height: 30px;
+    width: 350px;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+  .title-1{
+    color:#0071c2;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+  .lButton {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+
+  
+  @media screen and (min-width:300px) and (max-width:870px){
+    .rContainer{
+      display:none;
+    }
+    
+  }

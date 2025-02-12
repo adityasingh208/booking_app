@@ -13,7 +13,7 @@ A robust full-stack booking application developed using React, Node.js, and Mong
 
 ## Demo
 
-https://reserve-easy.vercel.app/
+https://booking-a55m53v5u-aditya-kumar-singhs-projects-5e2287b9.vercel.app/
 
 
 ## Features
